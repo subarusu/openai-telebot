@@ -9,5 +9,5 @@ Simple Chat Bot AI yang dibuat oleh Caliph Dev
 * [`OpenAI`](https://openai.com)
 
 #### Notes
-* Ganti Apikey OpenAI kamu di [`config.js`](config.js)
-* Ganti Bot Token kamu di [`config.js`](config.js)
+* Ganti Apikey OpenAI kamu di [`setting.json`](setting.json)
+* Ganti Bot Token kamu di [`setting.json`](setting.json)
