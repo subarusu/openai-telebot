@@ -77,7 +77,7 @@ const response = await openai.createCompletion({
           frequency_penalty: 0.2,
           presence_penalty: 0,
         });
-        console.log(response.data);
+        if (setting.debug) console.log(response.data);
 reply(chatId, response.data.choices[0].text.trim(), messageId);
 } catch (e) {
 reply(chatId, "Maaf, saya tidak mengerti maksud anda!", messageId);
